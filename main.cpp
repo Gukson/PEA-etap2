@@ -4,9 +4,12 @@
 int main() {
 
     DataLoader dataLoader = DataLoader();
-    vector<Node> nodes = dataLoader.loadData("4nodes.txt");
+    vector<Node> nodes = dataLoader.loadData("5nodes.txt");
 
     BFS bfs = BFS();
-    bfs.bfs(nodes[1],nodes.size());
+    bfs.bfs(nodes[1], nodes.size());
+    cout << "Optimum: " << dataLoader.optimum << endl;
+    cout << "rezultat: " << bfs.result << endl;
+
     return 0;
 }

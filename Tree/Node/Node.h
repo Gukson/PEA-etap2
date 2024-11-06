@@ -14,8 +14,6 @@ public:
     int get_value();
     vector<pair<Node*,int>> getVectorOfNodes();
     void addNodeToVector(Node *n, int v);
-
-
     void set_value(int v);
     explicit Node(int val){
         value = val;

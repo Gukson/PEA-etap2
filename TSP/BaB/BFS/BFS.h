@@ -20,8 +20,6 @@ public:
     int result = INT_MAX;
     bool overTime = false;
     int timeLimit;
-    int optimum;
-
 };
 
 
